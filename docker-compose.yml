@@ -1,0 +1,6 @@
+services:
+  vallentechwebsite:
+    image: vallentechwebsite
+    build:
+      context: .
+      dockerfile: ./Dockerfile
